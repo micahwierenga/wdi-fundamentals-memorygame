@@ -1,3 +1,87 @@
 /* This is a multi-line
 comment. Add your CSS code
 from Unit 1 - 5 below  */
+body {
+	text-align: center;
+}
+
+h1 {
+	color: rgba(2,132,130,1)
+}
+
+nav {
+	background-color: #808080;
+}
+
+.navbar {
+	background-color: #ffbf00;
+	color: #ffffff;
+	padding: 35px;
+	display: block;
+	float: left;
+}
+a.navbar:hover {
+	background-color: #ee5f3c;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+
+h2 {
+	color: #ffd700;
+}
+
+.board {
+	height: 50%;
+	width: 50%;
+	display: inline-block;
+}
+
+.card {
+	height: 200px;
+	width: 150px;
+	border: 1px black solid;
+	background: rgba(255,255,0,1);
+	border-radius: 10px;
+	float: left;
+	margin: 8%;
+}
+
+li {
+	display: inline;
+	padding: 20px;
+}
+
+a {
+	text-decoration: inherit;
+	color: inherit;
+}
+
+.facebook {
+	background-color: #0000dd;
+	color: #ffffff;
+}
+
+.linkedin {
+	background-color: #0055dd;
+	color: #ffffff;
+}
+
+.twitter {
+	background-color: #0099dd;
+	color: #ffffff;
+}
+
+.name {
+	color: #ff0000;
+}
+
+footer {
+	background-color: #808080;
+}
